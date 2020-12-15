@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+.App {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+#label {
+  margin-bottom: 5%;
+  font-size: 250%;
+  color: wheat;
+}
+.my-Clock {
+  height: 10%;
+  padding: 4%;
+  border: 2px solid whitesmoke;
+  background-color: #fff123;
+  width: 20%;
+  /* float: right; */
+}
+#time {
+  margin: 0px;
+  font-size: 250%;
+}
